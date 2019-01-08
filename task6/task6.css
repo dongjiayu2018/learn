@@ -1,0 +1,235 @@
+.body{
+    margin: 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    min-height: 100%;
+}
+.header{
+    display: flex;
+    height: 44px;
+    width: 100%;
+    background-color: #5fc0cd;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.header img{
+    width: 21px;
+    height: 22px;
+    position: absolute;
+    right: 15px;
+}
+.employer{
+    width: 143px;
+    height: 35px;
+    background-color: #55a8b3;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    position: relative;
+    border-radius: 6px;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+.care-worker{
+    float: right;
+    width: 72px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #5fc0cd;
+    text-align: center;
+    line-height: 35px;
+}
+.care-employee{
+    float: left;
+    width: 143px;
+    height: 35px;
+    background-color: #55a8b3;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+}
+.dropdown{
+    display: inline-block;
+    width: 33.3333%;
+}
+.btn{
+    border: none;
+    background-color: #ffffff;
+    padding: inherit;
+    width: -webkit-fill-available;
+    color: #999;
+    height: 40px;
+    background-image: none;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    touch-action: manipulation;
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    border-right: 1px solid;
+    border-radius: 0px;
+    border-image: linear-gradient(#ffffff, #e1e5e7, #ffffff) 1;
+}
+.top{
+    display: flex;
+    margin-top: 44px;
+    border-bottom: 1px solid #e1e5e7;
+}
+.caret{
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+.dropdown-menu{
+    width: 100%;
+    min-width: 0;
+}
+.content{
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #e1e5e7;
+    line-height: 24px;
+}
+.calendar{
+    margin-top: 15px;
+    margin-left: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.date{
+    display: inline-block;
+    background: url(../task6/css_sprites.png) no-repeat;
+    width: 12px;
+    height: 12px;
+    background-position: -40px -10px;
+}
+.service{
+    display: inline-block;
+    color: #999999;
+    margin-left: 11px;
+}
+.information{
+    margin-left: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+.time-limit{
+    display: inline-block;
+    font-weight: bolder;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.time{
+    display: flex;
+    color: #e63b0e;
+    font-weight: bolder;
+    align-items: center;
+    white-space: nowrap;
+}
+.view{
+    display: inline-block;
+    background: url(../task6/css_sprites.png) no-repeat;
+    width: 10px;
+    height: 17px;
+    background-position: -10px -10px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.location{
+    margin-left: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.address{
+    display: inline-block;
+    background: url(../task6/css_sprites.png) no-repeat;
+    width: 10px;
+    height: 12px;
+    background-position: -72px -10px;
+}
+.local{
+    display: inline-block;
+    font-size: 13px;
+    color: #999999;
+    margin-left: 10px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #f8fafb;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+}
+.box1{
+    position: absolute;
+    margin-left: 20%;
+}
+.homepage{
+    background: url(../task6/sprites.png);
+    width: 23px;
+    height: 20px;
+    background-position: -10px -10px;
+    margin: auto;
+    margin-top: 6px;
+}
+.home{
+    color: #5fc0cd;
+    margin-top: 2px;
+}
+.circle{
+    width: 47px;
+    height: 47px;
+    background-color: #5fc0cd;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: Center;
+}
+.write{
+    background: url(../task6/sprites.png);
+    width: 20px;
+    height: 20px;
+    background-position: -53px -10px;
+}
+.box2{
+    position: absolute;
+    right: 20%;
+}
+.people{
+    background: url(../task6/sprites.png);
+    width: 21px;
+    height: 21px;
+    background-position: -10px -50px;
+    margin: auto;
+    margin-top: 5px;
+}
+.mine{
+    color: #b0b1b1;
+    margin-top: 2px;
+}
+.cont{
+    margin-bottom: 50px;
+}
