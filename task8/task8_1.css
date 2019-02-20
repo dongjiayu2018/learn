@@ -119,6 +119,7 @@ body{
     padding: 20px 0 0 17px;
     text-align:justify;
     margin-bottom: 20px;
+    text-indent: 2em;
 }
 .synopsis{
     padding: 40px 65px 135px 65px;
@@ -129,6 +130,7 @@ body{
     color: #999999;
     margin-bottom: 43px;
     text-align:justify;
+    text-indent: 2em;
 }
 .bottom{
     background-color: #26a26f;
