@@ -150,6 +150,10 @@ body{
     font-size: 14px;
     color: #999999;
     font-family: 微软雅黑;
+    margin-left: 10px;
+}
+.overall img{
+    margin: 0 10px;
 }
 .show{
     font-size: 18px;
@@ -169,6 +173,7 @@ body{
     height: 369px;
     background-color: #ffffff;
     box-shadow: 0px 1px 1px 0px #999;
+    margin: 0 10px;
 }
 .technical-adviser{
     text-align: center;
@@ -251,6 +256,7 @@ body{
     display: flex;
     align-items: center;
     margin-right: 50px;
+    width: 71px;
 }
 .point{
     border-radius: 50%;
@@ -364,9 +370,12 @@ body{
     font-size: 12px;
     color: #ffffff;
     font-family: 微软雅黑;
+    text-align: center;
+    border-top: 1px solid #32c086;
+    padding: 8px 0;
 }
-.right{
-    margin-top: 27px;
+.right_1{
+    margin: 27px 0;
 }
 .wechat{
     font-size: 16px;
@@ -434,12 +443,14 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
     }
     .information {
         width: auto;
+        margin: 20px 20px;
     }
     .enterprise {
         display: inline;
     }
     .log{
         width: auto;
+        margin: 20px;
     }
     .links{
         display: none;

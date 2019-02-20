@@ -18,16 +18,20 @@ body{
     color: #42b683;
     font-size: 1.4rem;
     font-family: 微软雅黑;
+    white-space: nowrap;
 }
 .contact{
     text-align: right;
 }
 .nav{
+    height: 100px;
     background-color: #29b078;
     line-height: 100px;
 }
 .submenu{
     display: flex;
+    position: absolute;
+    right: -20px;
 }
 .menu{
     font-size: 1.6rem;
@@ -35,7 +39,7 @@ body{
     line-height: 96px;
     width: 100px;
     text-align: center;
-    font-family: 微软雅黑;
+    font-family: 微软雅黑；
 }
 .menu:hover{
     border-bottom: 4px solid #ffffff;
@@ -114,6 +118,7 @@ body{
     color: #999999;
     padding: 20px 0 0 17px;
     text-align:justify;
+    margin-bottom: 20px;
 }
 .synopsis{
     padding: 40px 65px 135px 65px;
@@ -218,9 +223,12 @@ body{
     font-size: 12px;
     color: #ffffff;
     font-family: 微软雅黑;
+    text-align: center;
+    border-top: 1px solid #32c086;
+    padding: 8px 0;
 }
 .right{
-    margin-top: 27px;
+    margin: 27px 0;
 }
 .wechat{
     font-size: 16px;
