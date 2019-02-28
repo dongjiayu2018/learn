@@ -52,6 +52,7 @@ input {
 .loginba .click {
   font-size: 18px;
   color: #ffffff;
+  cursor:pointer;
 }
 .forget-password {
   font-size: 16px;
