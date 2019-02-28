@@ -4,6 +4,10 @@ body {
 input {
   border: none;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+}
 .header {
   background-color: #5fc0cd;
   height: 44px;
@@ -15,6 +19,7 @@ input {
   font-size: 16px;
   float: left;
   padding-left: 15px;
+  cursor: pointer;
 }
 .header .log-in {
   color: #ffffff;
@@ -26,6 +31,7 @@ input {
   font-size: 16px;
   float: right;
   padding-right: 15px;
+  cursor: pointer;
 }
 .enter {
   display: flex;
@@ -52,7 +58,7 @@ input {
 .loginba .click {
   font-size: 18px;
   color: #ffffff;
-  cursor:pointer;
+  cursor: pointer;
 }
 .forget-password {
   font-size: 16px;
