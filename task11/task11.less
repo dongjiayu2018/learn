@@ -1,0 +1,65 @@
+@blue: #5fc0cd;
+@white: #ffffff;
+body{
+    background-color: #eff0f4;
+}
+input{
+    border: none;
+}
+.header{
+    background-color: @blue;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    .shut-down{
+        color: @white;
+        font-size: 16px;
+        float: left;
+        padding-left: 15px;
+    }
+    .log-in{
+        color: @white;
+        font-size: 18px;
+        display: inline-block;
+    }
+    .registered{
+        color: @white;
+        font-size: 16px;
+        float: right;
+        padding-right: 15px;
+    }
+}
+.enter{
+    display: flex;
+    height: 50px;
+    background-color: @white;
+    align-items: center;
+    margin-top: 8px;
+    .icon{
+        height: 25px;
+        padding: 0 22px;
+        line-height: 25px;
+        border-right: 1px solid #eaedee;
+        margin-right: 16px;
+    }
+}
+.loginba{
+    background-color: @blue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    .click{
+        font-size: 18px;
+        color: @white;
+    }
+}
+.forget-password{
+    font-size: 16px;
+    float: right;
+    margin: 10px;
+    a{
+        color: @blue;
+    }
+}

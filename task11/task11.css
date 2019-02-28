@@ -1,0 +1,63 @@
+body {
+  background-color: #eff0f4;
+}
+input {
+  border: none;
+}
+.header {
+  background-color: #5fc0cd;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+}
+.header .shut-down {
+  color: #ffffff;
+  font-size: 16px;
+  float: left;
+  padding-left: 15px;
+}
+.header .log-in {
+  color: #ffffff;
+  font-size: 18px;
+  display: inline-block;
+}
+.header .registered {
+  color: #ffffff;
+  font-size: 16px;
+  float: right;
+  padding-right: 15px;
+}
+.enter {
+  display: flex;
+  height: 50px;
+  background-color: #ffffff;
+  align-items: center;
+  margin-top: 8px;
+}
+.enter .icon {
+  height: 25px;
+  padding: 0 22px;
+  line-height: 25px;
+  border-right: 1px solid #eaedee;
+  margin-right: 16px;
+}
+.loginba {
+  background-color: #5fc0cd;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.loginba .click {
+  font-size: 18px;
+  color: #ffffff;
+}
+.forget-password {
+  font-size: 16px;
+  float: right;
+  margin: 10px;
+}
+.forget-password a {
+  color: #5fc0cd;
+}
