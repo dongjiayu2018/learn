@@ -1,0 +1,148 @@
+@green:#5fc0cd;
+@white:#ffffff;
+@gray: #999999;
+.content{
+    height: 50px;
+    border-bottom: 1px solid #e1e5e7;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: "[STHeitiSC]"
+}
+.left-spacing{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.header{
+    height: 44px;
+    background-color: @green;
+    position: relative;
+    img{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 17px;
+    }
+    .homepage{
+        font-size: 18px;
+        color: #ffffff;
+        text-align: center; 
+        line-height: 44px;
+    }
+}
+.img img{
+    height: 163px;
+    width: 100%;
+    filter: blur(3px);
+    -webkit-mask: -webkit-linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0));
+}
+.info{
+    position: relative;
+    .circle{
+        width: 84px;
+        height: 84px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        text-align: center;
+        overflow: hidden;
+        margin-right: 20px;
+        img{
+            margin-top: 8.5px
+        }
+    }
+    .basic-information{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+        .address{
+            font-size: 12px;
+            color: @white;
+        }
+    }
+    .information{
+        display: flex;
+        align-items: center;
+        .name{
+            font-size: 18px;
+            color: @white;
+            margin-right: 15px;
+        }
+        .age{
+            font-size: 14px;
+            color: @white;
+        }
+    }
+}
+.content{
+    .line{
+        width: 1.5px;
+        height: 13px;
+        background-color: #5fc0cd;
+        margin-left: 15px;
+    }
+    .topic{
+        margin-left: 13px;
+    }
+}
+.condition{
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+    padding-right: 10px;
+    img{
+        margin-right: 5px;
+    }
+}
+.gray{
+    color: @gray;
+    white-space: nowrap;
+    white-space: nowrap;
+    border-right: 1px solid #e1e5e7;
+    padding-right: 14px;
+    margin-right: 14px;
+}
+.special-case{
+    border-bottom: 1px solid #e1e5e7;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.self-introduction{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    height: 55px;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+.leave-a-message{
+    width: 47%;
+    height: 43px;
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+    line-height: 44px;
+    border: 1px solid #5fc0cd;
+    font-size: 17px;
+    color: #5fc0cd;
+    border-radius: 5px;
+}
+.phone{
+    width: 47%;
+    float: right;
+    margin-right: 2%;
+    background-color: #5fc0cd;
+    line-height: 44px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+}
