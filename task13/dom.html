@@ -1,0 +1,111 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Page-Enter" content="revealTrans(duration=12, transition=12)">
+    <title>CSS3之侧边栏</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        p {
+            padding: 10px 0;
+        }
+
+        body.sideMenu {
+            margin: 0;
+            -webkit-transform: none;
+            transform: none;
+        }
+
+        #side {
+            display: none;
+        }
+
+        #side:checked+aside {
+            left: 0;
+        }
+
+        #side:checked~#wrap {
+            padding-left: 220px;
+        }
+
+        a:link,
+        a:visited {
+            color: #00FF00;
+            text-decoration: none;
+        }
+
+        body>aside {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -200px;
+            width: 200px;
+            background: #000000;
+            transition: 0.2s ease-out;
+            -webkit-transition: 0.2s ease-out;
+        }
+
+        body>aside>h2 {
+            color: #00FF00;
+            text-align: center;
+            font-weight: normal;
+            padding: 10px;
+        }
+
+        #wrap {
+            margin-left: 20px;
+            padding: 10px;
+            transition: 0.25s ease-out;
+            -webkit-transition: 0.25s ease-out;
+        }
+
+        #wrap>label {
+            display: inline-block;
+        }
+
+        #wrap>label {
+            background: #333333;
+            border-radius: 15px;
+            color: #00FF00;
+            cursor: pointer;
+            display: block;
+            font-family: Courier New;
+            font-size: 25px;
+            font-weight: bold;
+            width: 50px;
+            height: 50px;
+            line-height: 35px;
+            text-align: center;
+            text-shadow: 0 -4px;
+        }
+
+        #wrap>label:hover {
+            background: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <input type='checkbox' id='side'>
+    <aside>
+        <h2><a href="http://www.cnblogs.com/caidupingblogs/">我的博客园</a></h2>
+    </aside>
+    <div id='wrap'>
+        <label for='side'>
+            <img src="menu.png" alt="菜单">
+        </label>
+    </div>
+</body>
+
+</html>

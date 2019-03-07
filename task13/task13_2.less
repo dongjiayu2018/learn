@@ -1,0 +1,141 @@
+@url: url(../task7/task7_sprites.png);
+@blue: #29bde0;
+.header{
+    background-color: @blue;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    border-bottom: 1px solid #74d4eb;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    .house{
+        background: @url;
+        width: 26px;
+        height: 21px;
+        background-position: -73px -133px;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+        cursor:pointer;
+    }
+    .title{
+        font-size: 17px;
+        margin: auto;
+        color: #ffffff; 
+    }
+    .help{
+        background: @url;
+        width: 20px;
+        height: 20px;
+        background-position: -119px -133px;
+        position: fixed;
+        right: 10px;
+        top: 10px;
+        cursor:pointer;
+    }
+}
+.content{
+    background-color: @blue;
+    padding-top: 56px;
+    .base{
+        background:@url;
+        width: 176px;
+        height: 103px;
+        background-position: -10px -10px;
+        margin: auto;
+        .trophy{
+            background: @url;
+            width: 43px;
+            height: 42px;
+            background-position: -10px -133px;
+            display: inline-block;
+            margin: 16px 0 0 68px;
+        }
+        .marked{
+            font-size: 24px;
+            color: #ffffff;
+            margin-left: 41px;
+        }
+    }
+    .prompt{
+        font-size: 16.5px;
+        color: #ffc865;
+        margin: 7px 40px 0 40px;
+    }
+    .data{
+        margin: 30px 0 0 40px;
+        padding-bottom: 13px;
+        .information{
+            font-size: 13px;
+            color: #ffffff;
+        }
+    }
+}
+.bottom{
+    margin-top: 6px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 15px;
+    .heaven{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 40px;
+        .day{
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .time{
+            font-size: 10px;
+            color: #c7c7c7;
+        }
+    }
+    .night{
+        color: #a6a6a6;
+        margin: 8px 40px 0 40px;
+    }
+    .morning{
+        color: #a6a6a6;
+        margin: 0 40px;
+    }
+}
+.footer{
+    display: flex;
+    height: 65px;
+    width: 100%;
+    opacity: 0.5;
+    background-color: @blue;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+.again{
+    height: 43px;
+    width: 42%;
+    background-color: #f66f6f;
+    position: fixed;
+    bottom: 10px;
+    z-index: 2;
+    line-height: 43px;
+    text-align: center;
+    left: 4%;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.share-it{
+    height: 43px;
+    width: 42%;
+    background-color: #fbb435;
+    position: fixed;
+    bottom: 10px;
+    z-index: 2;
+    line-height: 43px;
+    text-align: center;
+    right: 4%;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.last{
+    margin-bottom: 65px;
+}

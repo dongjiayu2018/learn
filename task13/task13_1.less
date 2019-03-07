@@ -1,0 +1,176 @@
+@bule: #29bde0;
+@white: #ffffff;
+@url: url(../task7/sprites.png);
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: @bule;
+}
+.header{
+    display: flex;
+    height: 44px;
+    width: 100%;
+    background-color: @bule;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    .table-of-contents{
+        background: url(../task7/css_sprites.png) no-repeat;
+        width: 20px;
+        height: 20px;
+        background-position: -10px -10px;
+        position: fixed;
+        top: 15px;
+        left: 15px;
+        cursor:pointer;
+    }
+    .vote{
+        font-size: 17px;
+        color: @white;
+        margin: auto;
+    }
+    .shut-down{
+        background: url(../task7/css_sprites.png) no-repeat;
+        width: 18px;
+        height: 18px;
+        background-position: -50px -10px;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        cursor:pointer;
+    }
+}
+.prompt-bar{
+    height: 41px;
+    width: 100%;
+    margin-top: 44px;
+    background-color: #b9e9f5;
+    display: flex;
+    align-items: Center;
+    .prompt{
+        margin-left: 23px;
+        font-size: 13px;
+    }
+    .play{
+        .flex;
+        width: 26px;
+        height: 26px;
+        background-color: #fbb435;
+        border-radius: 50%;
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+        img{
+            margin-left: 4px;
+        }
+    }
+}
+.triangle{
+    width:0;
+    height:0;
+    border-width:7.5px 6.5px 0;
+    border-style:solid;
+    border-color:#b9e9f5 transparent transparent;
+    margin-left: 35px;
+}
+.p{
+    color: @white;
+    font-size: 12px;
+    margin: 3px 0 22px 35px;
+}
+.box{
+    justify-content: space-between;
+    display: flex;
+    padding: 0 34px;
+}
+.overall{
+    height: 100px;
+    .box1{
+        display: inline-block;
+        height: 71px;
+        width: 68px;
+        background-color: #f5c97b;
+        border: 3px solid @white;
+        .character{
+            text-align: center;
+            line-height: 44px;
+            font-size: 15px;
+        }
+        .numbering{
+            font-size: 12px;
+            background-color: #83b09a;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+.icon{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    .icon-box{
+        width: 15px;
+        height: 15px;
+        background-color: @white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .knife{
+            background: @url;
+            width: 14px;
+            height: 9px;
+            background-position: -43px -10px;
+        }
+        .magnifier{
+            background: @url;
+            width: 10px;
+            height: 11px;
+            background-position: -10px -43px;
+        }
+        .positioning{
+            background: @url;
+            width: 13px;
+            height: 13px;
+            background-position: -10px -10px;
+        }
+        .cross{
+            background: @url;
+            width: 7px;
+            height: 7px;
+            background-position: -40px -43px;
+            background-color: @white;
+        }
+    }
+}
+.icon{
+    display: none;
+}
+.box1:hover +.icon{
+    display: flex;
+}
+.footer{
+    text-align: -webkit-center;
+    width: 100%;
+    height: 95px;
+    background-color: @bule;
+    position: fixed;
+    bottom: 0;
+    z-index: 0;
+    .cast{
+        height: 44px;
+        width: 80%;
+        background-color: #fbb435;
+        margin-top: 21px;
+        font-size: 20px;
+        color: @white;
+        text-align: center;
+        line-height: 44px;
+        cursor: pointer;
+    }
+}
+.tail{
+    margin-bottom: 95px;
+}
