@@ -1,0 +1,367 @@
+body {
+  background-color: #fafafa;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  height: 40px;
+}
+.header .hotline {
+  padding-left: 15%;
+  color: #29b078;
+  white-space: nowrap;
+}
+.header .software-contact {
+  position: absolute;
+  right: 15%;
+}
+.nav {
+  background-color: #29b078;
+  display: flex;
+  height: 100px;
+  padding: 0 15%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .submenu {
+  display: inline-flex;
+  margin-right: -35px;
+  height: 100px;
+}
+.nav .menu {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 96px;
+  width: 100px;
+  text-align: center;
+  font-family: "微软雅黑";
+}
+.nav .menu:hover {
+  border-bottom: 4px solid #ffffff;
+}
+.column {
+  display: flex;
+  padding: 30px 0;
+  margin-left: 15%;
+}
+.column .home {
+  font-size: 16px;
+}
+.column .joint-venture {
+  color: #29b078;
+  font-size: 16px;
+}
+.direction {
+  display: flex;
+  align-items: center;
+  margin-left: 15%;
+  border-bottom: 1px solid #edf1f2;
+  border-top: 1px solid #d0d6d9;
+  padding: 20px 0;
+}
+.direction .path {
+  color: #999999;
+  white-space: nowrap;
+}
+.direction .black {
+  margin-left: 30px;
+  padding: 4px 4px;
+}
+.direction .black:hover {
+  background-color: #29b078;
+  color: #ffffff;
+}
+td {
+  padding: 10px;
+}
+.carte {
+  display: flex;
+  margin: 0 15%;
+  justify-content: space-between;
+}
+.card {
+  margin-top: 47px;
+  box-shadow: 0px 0px 2px 0px #e2e2e2;
+  position: relative;
+  width: 32%;
+}
+.card .effect {
+  position: absolute;
+  height: 100%;
+  padding: 21% 10%;
+  font-size: 16px;
+  text-align: justify;
+  font-family: 微软雅黑;
+  line-height: 19px;
+  opacity: 0;
+  background: rgba(21, 18, 18, 0.78);
+  z-index: 1;
+  color: #ffffff;
+}
+.card .effect:hover {
+  opacity: 1;
+}
+.card .effect .ios {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.card .information {
+  display: flex;
+  border-right: 1px solid #edf1f2;
+  border-left: 1px solid #edf1f2;
+  border-top: 1px solid #edf1f2;
+}
+.card .information .avatar {
+  padding: 20px 0 20px 10px;
+}
+.card .information .avatar img {
+  max-width: none;
+}
+.card .information .msg {
+  padding: 30px 8px;
+}
+.card .information .msg .web {
+  font-weight: bolder;
+}
+.card .information .msg .summary {
+  word-break: break-all;
+}
+.threshold::after {
+  content: url(../task8/形状_1.png);
+  margin-left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-44%);
+}
+.difficult {
+  display: flex;
+}
+.treatment {
+  text-align: center;
+  color: #999999;
+  font-size: 12px;
+  font-family: 微软雅黑;
+}
+.threshold {
+  color: #999999;
+  font-size: 12px;
+  font-family: 微软雅黑;
+  height: 21px;
+  position: relative;
+}
+.image img {
+  margin-left: 10px;
+}
+.data {
+  display: flex;
+}
+.red-thin {
+  color: #f24b42;
+  font-size: 12px;
+}
+.red {
+  color: #f24b42;
+  font-size: 12px;
+  font-weight: bolder;
+  font-family: 微软雅黑;
+}
+.time {
+  font-size: 12px;
+  font-family: 微软雅黑;
+  display: inline-block;
+  margin-left: 10%;
+}
+.pay {
+  font-size: 12px;
+  font-family: 微软雅黑;
+  display: inline-block;
+  position: absolute;
+  right: 10%;
+}
+.online {
+  font-size: 14px;
+  font-weight: bolder;
+  font-family: 微软雅黑;
+}
+.degree {
+  color: #999999;
+  font-size: 12px;
+  font-family: 微软雅黑;
+}
+.subject {
+  font-weight: bolder;
+  margin-left: 15%;
+  padding: 30px 0;
+  border-bottom: 1px solid #d0d6d9;
+}
+.card_1 {
+  margin-top: 47px;
+  position: relative;
+  width: 32%;
+}
+.aftermost {
+  margin-bottom: 239px;
+}
+.footer {
+  background-color: #26a26f;
+  color: #ffffff;
+}
+.footer .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+.footer .top .left {
+  padding-top: 38px;
+}
+.footer .top .left .about-us {
+  display: flex;
+  padding-top: 70px;
+}
+.footer .top .left .change {
+  font-size: 16px;
+}
+.footer .top .center {
+  padding-top: 38px;
+  margin-left: -22%;
+}
+.footer .top .center .up {
+  display: flex;
+  padding-top: 25px;
+}
+.footer .top .center .up .incubator {
+  margin-right: 30px;
+  height: 22px;
+}
+.footer .top .right {
+  padding: 38px 34px 18px 0;
+  font-size: 16px;
+}
+.footer .top .right img {
+  padding-top: 7px;
+}
+.footer .down {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: 微软雅黑;
+  text-align: center;
+  border-top: 1px solid #32c086;
+  padding: 8px 0;
+}
+.contact-us:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.incubator:hover {
+  border-bottom: 1px solid #ffffff;
+}
+@media (max-width: 769px) {
+  .nav {
+    display: none;
+  }
+  .menu_1 {
+    display: block;
+    text-align: center;
+    background: #29b078;
+  }
+  input:checked ~ .menu_1 {
+    display: none;
+  }
+  input {
+    -webkit-appearance: none;
+  }
+  .submenu_1 {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    background-color: #29b078;
+    padding: 12px 10PX 11PX 10PX;
+  }
+  .column_1 {
+    position: relative;
+    width: 100%;
+    height: 46px;
+    z-index: 1;
+    background-color: #29b078;
+  }
+  label {
+    display: inline-block;
+    right: 0;
+    max-width: 100%;
+    margin-bottom: auto;
+    font-weight: 700;
+  }
+}
+@media (min-width: 769px) {
+  .column_1 {
+    display: none;
+  }
+}
+@media (max-width: 1600px) {
+  .column {
+    margin-left: 10%;
+  }
+  .direction {
+    margin-left: 10%;
+  }
+  .subject {
+    margin-left: 10%;
+  }
+  .carte {
+    margin: 0 10%;
+  }
+  .aftermost {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 1400px) {
+  .column {
+    margin-left: 5%;
+  }
+  .direction {
+    margin-left: 5%;
+  }
+  .subject {
+    margin-left: 5%;
+  }
+  .carte {
+    margin: 0 5%;
+  }
+  .footer .top {
+    display: block;
+    padding: 0 5%;
+  }
+  .footer .top .center {
+    margin: auto;
+  }
+  .aftermost {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 1300px) {
+  .carte {
+    display: block;
+  }
+  .card {
+    width: 100%;
+  }
+}
+@media (min-width: 650px) {
+  .phone {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .computer {
+    display: none;
+  }
+  .direction {
+    border-top: none;
+  }
+  .header .hotline {
+    padding-left: 5%;
+  }
+  .header .software-contact {
+    right: 5%;
+  }
+}
