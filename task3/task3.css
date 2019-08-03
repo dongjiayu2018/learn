@@ -1,0 +1,50 @@
+.log-in {
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+body {
+  background-image: url(../task3/1556097941365.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+input {
+  border: none;
+  border-left: 1px solid #f0e9e9;
+  padding-left: 10px;
+}
+img {
+  padding: 0 5px;
+}
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0099ff;
+}
+.enter {
+  height: 40px;
+  width: 90%;
+  margin-top: 10px;
+  background-color: #ffffff;
+  display: inline-block;
+  line-height: 40px;
+  text-align: left;
+}
+button {
+  width: 90%;
+  height: 30px;
+  border: 0;
+  background-color: #0099ff;
+  outline: none;
+  border-radius: 3px;
+  color: #ffffff;
+}
