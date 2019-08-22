@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="task2_4.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="../task2/javascript-state-machine-master/dist/state-machine.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <a class="return" href="task2_3.html"></a>
+        <p class="view">法官台本</p>
+        <div class="shut-down" onclick="rtn()"></div>
+    </div>
+    <div class="step">
+        <div class="content">
+            <div class="substep" onclick="fate()" style="display: block">第一天</div>
+            <div class="main" style="display:block;">
+                <p class="kill" onclick="murder()">杀手杀人
+
+                    <i class="arrow"></i>
+                </p>
+                <span style="display: none;margin-bottom: 8px;text-align: center;">3号被杀手杀死，真实身份是平民</span>
+                <p class="undead">亡灵发表遗言
+                    <i class="arrow"></i>
+                </p>
+                <p class="speak">玩家依次发言
+                    <i class="arrow"></i>
+                </p>
+                <p class="vote">全民投票
+                    <i class="arrow"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <button>结束游戏</button>
+        <button onclick="location='task2_3.html'">法官日志</button>
+    </div>
+    <script src="task2_4.js"></script>
+</body>
+
+</html>

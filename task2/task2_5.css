@@ -1,0 +1,125 @@
+body {
+  background-color: #00BFFF;
+}
+.header {
+  background-color: #00BFFF;
+  height: 45px;
+  border-bottom: 1px solid #74d4eb;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 22px;
+  z-index: 1;
+}
+.header .shut-down {
+  display: inline-block;
+  width: 25px;
+  height: 3px;
+  background: #ffffff;
+  line-height: 0;
+  font-size: 0;
+  vertical-align: middle;
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  transform: translateY(-50%) rotate(225deg);
+}
+.header .shut-down:after {
+  content: '/';
+  display: block;
+  width: 25x;
+  height: 3px;
+  background: #ffffff;
+  -webkit-transform: rotate(-90deg);
+}
+.content {
+  position: fixed;
+  top: 45px;
+  width: 100%;
+  padding-top: 5px;
+  background: #00BFFF;
+  z-index: 1;
+}
+.content #clue {
+  position: relative;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  background: rgba(255, 255, 255, 0.67);
+}
+.content #clue:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 35px;
+  border-top: 6.5px solid rgba(255, 255, 255, 0.67);
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.content #prompt {
+  color: #fff;
+  font-size: 12px;
+  line-height: 36px;
+}
+.content p {
+  padding-left: 23px;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 73px;
+  bottom: 0;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgba(41, 189, 224, 0.48);
+}
+.footer button {
+  width: 90%;
+  height: 40px;
+  margin: 0 5%;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  background: #fbb435;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 150px 0;
+}
+.card {
+  width: 20%;
+  border: 0.5vw solid #fff;
+  margin: 0 6.1% 8% 6.1%;
+  text-align: center;
+  background: #fbb435;
+  position: relative;
+}
+.card strong {
+  line-height: 14.5vw;
+}
+.card .box {
+  display: block;
+  font-size: 12px;
+  line-height: 4.5vw;
+  color: #fff;
+  background: rgba(26, 153, 183, 0.52);
+}
+.card .box1 {
+  background: red;
+}
+.card img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 15px;
+}

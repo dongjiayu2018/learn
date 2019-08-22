@@ -1,0 +1,114 @@
+.header {
+  background-color: #29bde0;
+  width: 100%;
+  height: 44px;
+  display: flex;
+  border-bottom: 1px solid #74d4eb;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.house {
+  background: url(../task2/task7_sprites.png);
+  width: 26px;
+  height: 21px;
+  background-position: -73px -133px;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+}
+.title {
+  font-size: 17px;
+  margin: auto;
+  color: #ffffff;
+}
+.content {
+  background-color: #29bde0;
+  padding-top: 56px;
+}
+.trophy {
+  background: url(../task2/task7_sprites.png);
+  width: 43px;
+  height: 42px;
+  background-position: -10px -133px;
+  margin-left: 68px;
+  display: inline-block;
+  margin-top: 16px;
+}
+.base {
+  background: url(../task2/task7_sprites.png);
+  width: 176px;
+  height: 103px;
+  background-position: -10px -10px;
+  margin: auto;
+}
+.marked {
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: 41px;
+}
+.data {
+  margin-top: 30px;
+  margin-left: 40px;
+  padding-bottom: 13px;
+  color: #fff;
+  width: 100%;
+}
+#killer {
+  display: inline-block;
+  width: 33%;
+}
+#civilian {
+  display: inline-block;
+  width: 33%;
+}
+.bottom {
+  margin-top: 6px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 15px;
+}
+.day {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.night {
+  margin-top: 8px;
+  color: #a6a6a6;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.morning {
+  color: #a6a6a6;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.footer {
+  display: flex;
+  height: 65px;
+  width: 100%;
+  opacity: 0.5;
+  background-color: #29bde0;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+.again {
+  height: 43px;
+  width: 90%;
+  background-color: #f66f6f;
+  position: fixed;
+  bottom: 10px;
+  z-index: 2;
+  line-height: 43px;
+  text-align: center;
+  left: 4%;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #ffffff;
+}
+#message {
+  background: #fff;
+  margin-bottom: 70px;
+}
